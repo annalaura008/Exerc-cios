@@ -75,7 +75,7 @@ else {
     console.log ("F")
 }*/
 
-const a= 23
+/*const a= 23
 const b= 11
 const c= 13
 if (a%2 === 0) {
@@ -89,4 +89,4 @@ else if (c%2 === 0) {
 }
 else {
     console.log ("false")
-}
+}/*
