@@ -125,3 +125,17 @@ if (a%2 === 0 || b%2 === 0 || c%2 === 0){
 else {
     console.log ("false")
 }*/
+/*const custoDeProduto= 120
+const valorDeVenda= 200
+const imposto= 20/100 * custoDeProduto
+const valorCustoTotal= custoDeProduto + imposto
+const lucro= valorDeVenda - valorCustoTotal
+if (custoDeProduto < 0 || valorDeVenda < 0){
+    console.log("erro")
+}
+else {
+    const lucro= valorDeVenda - valorCustoTotal
+    valorDeVenda - custoDeProduto + imposto === lucro
+    console.log(lucro * 1000)
+}*/
+const salárioBruto= 12000
