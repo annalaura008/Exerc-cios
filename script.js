@@ -140,34 +140,39 @@ else {
 }*/
 const salárioBruto= 3000
 let salárioLíquido= salárioBruto 
-if (salárioBruto >= 0.01 || salárioBruto <= 1556.94) {
+if (salárioBruto >= 0.01 && salárioBruto <= 1556.94) {
     const salário8= 8/100 * salárioBruto 
+    salárioLíquido= salárioBruto - salário8
 }
-else if (salárioBruto >= 1556.95 || salárioBruto <= 2594.92) {
+else if (salárioBruto >= 1556.95 && salárioBruto <= 2594.92) {
     const salário9= 9/100 * salárioBruto
+    salárioLíquido= salárioBruto - salário9
 }
-else if (salárioBruto >= 2594.93 || salárioBruto <= 5189.82) {
+else if (salárioBruto >= 2594.93 && salárioBruto <= 5189.82) {
     const salário11= 11/100 * salárioBruto 
+    salárioLíquido= salárioBruto - salário11
 }
 else if (salárioBruto < 5189.82) {
     const saláriomáximo= salárioBruto - 570.88
-    salárioBruto-saláriomáximo === saláriolíquido
+   salárioLíquido= saláriomáximo
 }
 
-if (salárioLíquido <=0.01 || salárioLíquido >= 1903.98) {
- 
+if (salárioLíquido <=0.01 && salárioLíquido >= 1903.98) {
 }
-else if (salárioLíquido <= 1903.99 || salárioLíquido >= 2826.65) {
+else if (salárioLíquido <= 1903.99 && salárioLíquido >= 2826.65) {
     const salário7= 7.5/100 * salárioLíquido - 142.80
-    saláriolíquidototal = salárioLíquido - salário7
+    salárioLíquido= salárioLíquido - salário7
 }
-else if (salárioLíquido <= 2826.66 || salárioLíquido >= 3751.05) {
+else if (salárioLíquido <= 2826.66 && salárioLíquido >= 3751.05) {
     const salário15= 15/100 * salárioLíquido - 354.80
+    salárioLíquido= salárioLíquido - salário15
 }
-else if (salárioLíquido <= 3751.06 || salárioLíquido >= 4664.68) {
-    const salário22= 22/100 * salárioLíquido - 636.13
+else if (salárioLíquido <= 3751.06 && salárioLíquido >= 4664.68) {
+    const salário22= 22.5/100 * salárioLíquido - 636.13
+    salárioLíquido= salárioLíquido - salário22
 }
 else if (salárioLíquido < 4664.68) {
-    const salário27= 27/100 * salárioLíquido - 869.36
+    const salário27= 27.5/100 * salárioLíquido - 869.36
+    salárioLíquido= salárioLíquido - salário27
 }
-    console.log ("tendo R$"+salárioBruto +"como salário bruto, seu salário líquido será de"+salárioLíquido)
+    console.log ("tendo R$"+salárioBruto +" como salário bruto, seu salário líquido será de "+salárioLíquido) 
