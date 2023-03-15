@@ -175,4 +175,13 @@ else if (salárioLíquido > 4664.68) {
     const salário27= 27.5/100 * salárioLíquido - 869.36
     salárioLíquido= salárioLíquido - salário27
 }
-    console.log ("tendo R$"+salárioBruto +" como salário bruto, seu salário líquido será de "+salárioLíquido)/*
+    console.log ("tendo R$"+salárioBruto +" como salário bruto, seu salário líquido será de "+salárioLíquido)
+*/
+const pessoa= {
+    nome:"Anna Laura", 
+    idade:16,
+    altura:1.58
+}
+for(const prop in pessoa){
+    console.log(prop)
+}
