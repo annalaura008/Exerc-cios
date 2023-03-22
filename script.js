@@ -178,10 +178,9 @@ else if (salárioLíquido > 4664.68) {
     console.log ("tendo R$"+salárioBruto +" como salário bruto, seu salário líquido será de "+salárioLíquido)
 */
 const pessoa= {
-    nome:"Anna Laura", 
-    idade:16,
-    altura:1.58
+    nome:"Maria", 
+    idade:17,
+    altura:1.62,
+    peso: 42
 }
-for(const prop in pessoa){
-    console.log(prop)
-}
+console.log("olá "+pessoa.nome+", você tem "+pessoa.idade+" anos, "+pessoa.altura+"de altura e "+pessoa.peso+" kilos")
