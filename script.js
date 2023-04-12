@@ -177,10 +177,43 @@ else if (salárioLíquido > 4664.68) {
 }
     console.log ("tendo R$"+salárioBruto +" como salário bruto, seu salário líquido será de "+salárioLíquido)
 */
-const pessoa= {
+/*const pessoa= {
     nome:"Maria", 
     idade:17,
     altura:1.62,
     peso: 42
 }
-console.log("olá "+pessoa.nome+", você tem "+pessoa.idade+" anos, "+pessoa.altura+"de altura e "+pessoa.peso+" kilos")
+for (const alguem in pessoa) {
+    console.log(pessoa[alguem] )
+}*/
+/*console.log("olá "+pessoa.nome+", você tem "+pessoa.idade+" anos, "+pessoa.altura+" de altura e "+pessoa.peso+" kilos")
+
+const notas= [10, 25, 30, 45, 50]
+for (let index= 0; index<notas.length; index+= 1) {
+    console.log (notas[index])
+}
+for (const nota of notas) {
+    console.log (nota)
+}*/
+/*const pessoas= [{
+    nome: "Anna",
+    idade: 16,
+    peso: 42,
+    altura: 1.58,
+}, {
+    nome: "Maria",
+    idade: 17,
+    peso: 50,
+    altura: 1.67,
+}, {
+    nome: "Clara",
+    idade: 18,
+    peso: 65,
+    altura: 1.70,
+},
+]
+for (let index = 0; index < pessoas.length; index++) {
+    const element = pessoas[index];
+    const IMC= element.peso / element.altura ** 2
+    console.log(`${element.nome} - ${IMC.toFixed(2)}`);
+}*/
