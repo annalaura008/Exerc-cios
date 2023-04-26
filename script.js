@@ -217,3 +217,20 @@ for (let index = 0; index < pessoas.length; index++) {
     const IMC= element.peso / element.altura ** 2
     console.log(`${element.nome} - ${IMC.toFixed(2)}`);
 }*/
+let numeros= [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]
+/*for (let index = 0; index < numeros.length; index+=1) {
+    console.log(numeros[index])
+}*/
+/*let soma= 0;
+for (let index = 0; index < numeros.length; index+=1) {
+    const element = numeros[index];
+    soma+=element
+    
+}
+console.log(soma)*/
+/*let soma= 0;
+for (let index = 0; index < numeros.length; index+=1) {
+    const element = numeros[index];
+    soma+=element
+}
+console.log(soma/numeros.length)*/
