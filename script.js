@@ -217,7 +217,7 @@ for (let index = 0; index < pessoas.length; index++) {
     const IMC= element.peso / element.altura ** 2
     console.log(`${element.nome} - ${IMC.toFixed(2)}`);
 }*/
-let numeros= [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]
+let numeros= [5, 9, 3, 19, 1, 8, 15, 2, 35, 27]
 /*for (let index = 0; index < numeros.length; index+=1) {
     console.log(numeros[index])
 }*/
@@ -233,4 +233,19 @@ for (let index = 0; index < numeros.length; index+=1) {
     const element = numeros[index];
     soma+=element
 }
-console.log(soma/numeros.length)*/
+console.log(soma/numeros.length)
+
+if (soma/numeros.length > 20) {
+    console.log("o valor da média aritmética é maior que 20")
+}
+else {
+    console.log("o valor da média aritmética é menor ou igual que 20")
+}*/
+for (let index = 0; index < numeros.length; index+= 1) {
+    const element = numeros[index];
+    let maiornumero = element
+    if(maiornumero > element) {
+        maiornumero = element
+    }
+    console.log(maiornumero)
+}
