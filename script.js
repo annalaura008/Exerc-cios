@@ -207,7 +207,7 @@ for (const nota of notas) {
     altura: 1.67,
 }, {
     nome: "Clara",
-    idade: 18,
+    idade: 18,3
     peso: 65,
     altura: 1.70,
 },
@@ -217,7 +217,7 @@ for (let index = 0; index < pessoas.length; index++) {
     const IMC= element.peso / element.altura ** 2
     console.log(`${element.nome} - ${IMC.toFixed(2)}`);
 }*/
-let numeros= [5, 9, 3, 19, 1, 8, 15, 2, 35, 27]
+// let numeros= [50, 92, 36, 198, 14, 8, 152, 20, 356, 278]
 /*for (let index = 0; index < numeros.length; index+=1) {
     console.log(numeros[index])
 }*/
@@ -241,11 +241,48 @@ if (soma/numeros.length > 20) {
 else {
     console.log("o valor da média aritmética é menor ou igual que 20")
 }*/
+/*let maiornumero = 0 
 for (let index = 0; index < numeros.length; index+= 1) {
     const element = numeros[index];
-    let maiornumero = element
-    if(maiornumero > element) {
-        maiornumero = element
+    if(maiornumero < element) {
+        maiornumero= element
     }
-    console.log(maiornumero)
+}
+console.log(maiornumero)*/
+/*let numeroimpar = 0
+for (let index = 0; index < numeros.length; index+=1) {
+    const element = numeros[index];
+    if(element % 2 === 1){
+        numeroimpar+=1
+    }
+}
+if (numeroimpar === 0) {
+    console.log("não existe número impar")
+}
+else {
+    console.log(numeroimpar)
+}*/
+/*let menorNumero = numeros[0]
+ for (let index = 0; index < numeros.length; index+=1) {
+    const element = numeros[index];
+    if (element < menorNumero){
+        menorNumero= element
+    
+ }
+ console.log (menorNumero)*/
+/*let array = []
+for (let index = 1; index < 26; index+= 1) {
+    array.push(index)
+}
+console.log(array);
+
+for (let index = 0; index < array.length; index+=1) {
+    const element = array[index];
+    console.log(element / 2);
+}*/
+const fatorial= 10
+let resultado= 1
+for (let index = 0; index < fatorial.length; index-=1) {
+    const element = fatorial[index];
+    fatorial * index
 }
