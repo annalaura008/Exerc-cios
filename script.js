@@ -280,9 +280,19 @@ for (let index = 0; index < array.length; index+=1) {
     const element = array[index];
     console.log(element / 2);
 }*/
-const fatorial= 10
+/*const fatorial= 10
 let resultado= 1
-for (let index = 0; index < fatorial.length; index-=1) {
-    const element = fatorial[index];
-    fatorial * index
+for (let index = 1; index <= fatorial; index+=1) {
+    resultado= index * resultado
+}
+console.log(resultado);*/
+const fruta= "banana"
+let text = "How are you doing today?";
+const myArray = text.split("");
+console.log(myArray);
+
+for (let index = 0; index < fruta.length; index+=1) {
+    const element = array[index];
+    fruta.reverse()
+    
 }
