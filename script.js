@@ -286,13 +286,28 @@ for (let index = 1; index <= fatorial; index+=1) {
     resultado= index * resultado
 }
 console.log(resultado);*/
-const fruta= "banana"
-let text = "How are you doing today?";
-const myArray = text.split("");
-console.log(myArray);
-
-for (let index = 0; index < fruta.length; index+=1) {
-    const element = array[index];
-    fruta.reverse()
-    
+/*const word = "panelada"
+console.log(word.split('').reverse().join(''));*/
+/*const n = 12
+const asterisco = "*"
+let primeiro = ""
+for (let index = 0; index < n; index+=1) {
+primeiro += asterisco 
+}
+for (let index = 0; index < n; index+=1) {
+    console.log(primeiro );   
+}*/
+/*const n = 12
+const asterisco = "*"
+let primeiro = ""
+for (let index = 0; index < n; index+=1) {
+primeiro += asterisco
+console.log(primeiro);  
+}*/
+const n = 12
+const asterisco = "*"
+let primeiro = ""
+for (let index = 0; index < n; index+=1) {
+primeiro += asterisco
+console.log(primeiro);  
 }
