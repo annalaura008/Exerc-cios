@@ -271,12 +271,12 @@ else {
  }
  console.log (menorNumero)*/
 /*let array = []
-for (let index = 1; index < 26; index+= 1) {
+for (let index = 1; index < 26; inde x+= 1) {
     array.push(index)
 }
 console.log(array);
 
-for (let index = 0; index < array.length; index+=1) {
+for (let index = 0; index < array.length; index += 1) {
     const element = array[index];
     console.log(element / 2);
 }*/
@@ -291,23 +291,31 @@ console.log(word.split('').reverse().join(''));*/
 /*const n = 12
 const asterisco = "*"
 let primeiro = ""
-for (let index = 0; index < n; index+=1) {
+for (let index = 0; index < n; index += 1) {
 primeiro += asterisco 
 }
-for (let index = 0; index < n; index+=1) {
+for (let index = 0; index < n; index += 1) {
     console.log(primeiro );   
 }*/
 /*const n = 12
 const asterisco = "*"
 let primeiro = ""
-for (let index = 0; index < n; index+=1) {
-primeiro += asterisco
-console.log(primeiro);  
+for (let index = 0; index < n; index += 1) {
+    primeiro += asterisco
+    console.log(primeiro);  
 }*/
-const n = 12
+/*const n = 5
 const asterisco = "*"
-let primeiro = ""
-for (let index = 0; index < n; index+=1) {
-primeiro += asterisco
-console.log(primeiro);  
-}
+const espaco = " " 
+for (let index = 1; index < n + 1; index += 1) {
+    let linha= ""
+    for (let i = 0; i < n - index; i += 1) {
+        linha += espaco
+    }
+    for (let j = 0; j < index ; j+=1) {
+        linha += asterisco 
+    }
+    
+    console.log(linha);  
+}*/
+
