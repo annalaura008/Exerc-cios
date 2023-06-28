@@ -318,4 +318,31 @@ for (let index = 1; index < n + 1; index += 1) {
     
     console.log(linha);  
 }*/
+/*function revertida(fruta) {
+    let vazia = ""
+    for (let index = fruta.length - 1; index >= 0; index-=1) {
+        const element = fruta[index];
+        vazia += element
+    }
+    return vazia
+}
+console.log(revertida("chocolate"));*/
 
+/*function revertida(palavra) {
+    return palavra.split("").reverse().join("")
+}
+console.log(revertida("brownie"));*/
+/*const palindromo = (algo) => {
+    return revertida(algo) === algo
+}
+console.log(palindromo('palavra'));
+console.log(palindromo('arara'));*/
+function lista(words) {
+    let maior = 0
+    for (let index = 0; index < words.length; index+=1) {
+        const element = words[index];
+        
+    }
+    return words
+}
+console.log(lista(["banana", "pera", "kiwi", "melancia"]));
