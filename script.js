@@ -337,12 +337,28 @@ console.log(revertida("brownie"));*/
 }
 console.log(palindromo('palavra'));
 console.log(palindromo('arara'));*/
-function lista(words) {
+function maiorIndice(words) {
     let maior = 0
     for (let index = 0; index < words.length; index+=1) {
-        const element = words[index];
-        
+        if (words[index].length > words[maior].length) {
+            maior= index
+        }
     }
-    return words
+    return maior
 }
-console.log(lista(["banana", "pera", "kiwi", "melancia"]));
+/*function menorIndice(palavra) {
+    let menor= 0
+    for (let index = 0; index < palavra.length; index+=1) {
+        if (palavra[index].length < palavra[menor].length) {
+            menor= index
+        }
+    }
+    return menor
+}
+const objetos= ["almofada", "travesseiro", "celular", "teclado"]
+console.log(menorIndice(objetos));*/
+function maiorPalavra(palavra) {
+    console.log(maiorIndice(palavra))
+}
+const frutas= ["banana", "pera", "jabuticaba", "kiwi", "melancia"]
+console.log(maiorPalavra(frutas));
