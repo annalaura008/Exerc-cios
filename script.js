@@ -14,7 +14,7 @@ if (morango === 0) {
 }*/
 /*const a = 2
 const b = 4
-console.log(a+b) 
+console.log(a+b)
 console.log(a-b)
 console.log(a*b)
 console.log(a/b)
@@ -139,9 +139,9 @@ else {
     console.log(lucro * 1000)
 }*/
 /*const salárioBruto= 3000
-let salárioLíquido= salárioBruto 
+let salárioLíquido= salárioBruto
 if (salárioBruto >= 0.01 && salárioBruto <= 1556.94) {
-    const salário8= 8/100 * salárioBruto 
+    const salário8= 8/100 * salárioBruto
     salárioLíquido= salárioBruto - salário8
 }
 else if (salárioBruto >= 1556.95 && salárioBruto <= 2594.92) {
@@ -149,7 +149,7 @@ else if (salárioBruto >= 1556.95 && salárioBruto <= 2594.92) {
     salárioLíquido= salárioBruto - salário9
 }
 else if (salárioBruto >= 2594.93 && salárioBruto <= 5189.82) {
-    const salário11= 11/100 * salárioBruto 
+    const salário11= 11/100 * salárioBruto
     salárioLíquido= salárioBruto - salário11
 }
 else if (salárioBruto < 5189.82) {
@@ -178,7 +178,7 @@ else if (salárioLíquido > 4664.68) {
     console.log ("tendo R$"+salárioBruto +" como salário bruto, seu salário líquido será de "+salárioLíquido)
 */
 /*const pessoa= {
-    nome:"Maria", 
+    nome:"Maria",
     idade:17,
     altura:1.62,
     peso: 42
@@ -225,7 +225,7 @@ for (let index = 0; index < pessoas.length; index++) {
 for (let index = 0; index < numeros.length; index+=1) {
     const element = numeros[index];
     soma+=element
-    
+
 }
 console.log(soma)*/
 /*let soma= 0;
@@ -241,7 +241,7 @@ if (soma/numeros.length > 20) {
 else {
     console.log("o valor da média aritmética é menor ou igual que 20")
 }*/
-/*let maiornumero = 0 
+/*let maiornumero = 0
 for (let index = 0; index < numeros.length; index+= 1) {
     const element = numeros[index];
     if(maiornumero < element) {
@@ -267,7 +267,7 @@ else {
     const element = numeros[index];
     if (element < menorNumero){
         menorNumero= element
-    
+
  }
  console.log (menorNumero)*/
 /*let array = []
@@ -292,31 +292,31 @@ console.log(word.split('').reverse().join(''));*/
 const asterisco = "*"
 let primeiro = ""
 for (let index = 0; index < n; index += 1) {
-primeiro += asterisco 
+primeiro += asterisco
 }
 for (let index = 0; index < n; index += 1) {
-    console.log(primeiro );   
+    console.log(primeiro );
 }*/
 /*const n = 12
 const asterisco = "*"
 let primeiro = ""
 for (let index = 0; index < n; index += 1) {
     primeiro += asterisco
-    console.log(primeiro);  
+    console.log(primeiro);
 }*/
 /*const n = 5
 const asterisco = "*"
-const espaco = " " 
+const espaco = " "
 for (let index = 1; index < n + 1; index += 1) {
     let linha= ""
     for (let i = 0; i < n - index; i += 1) {
         linha += espaco
     }
     for (let j = 0; j < index ; j+=1) {
-        linha += asterisco 
+        linha += asterisco
     }
-    
-    console.log(linha);  
+
+    console.log(linha);
 }*/
 /*function revertida(fruta) {
     let vazia = ""
@@ -357,8 +357,24 @@ function maiorIndice(words) {
 }
 const objetos= ["almofada", "travesseiro", "celular", "teclado"]
 console.log(menorIndice(objetos));*/
-function maiorPalavra(palavra) {
-    console.log(maiorIndice(palavra))
+/*function maiorPalavra(palavra) {
+    return palavra[maiorIndice(palavra)]
+
 }
+
+const frutas= ["banana", "pera", "jabuticaba", "kiwi", "melancia"]
+console.log(maiorPalavra(frutas));*/
+function maiorPalavra(palavra) {
+    return palavra[maiorIndice(palavra)]
+
+}
+
 const frutas= ["banana", "pera", "jabuticaba", "kiwi", "melancia"]
 console.log(maiorPalavra(frutas));
+
+
+
+
+
+
+
