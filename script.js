@@ -369,8 +369,13 @@ function maiorPalavra(palavra) {
 
 }
 
-const frutas= ["banana", "pera", "jabuticaba", "kiwi", "melancia"]
-console.log(maiorPalavra(frutas));
+
+
+function quantaPalavras(lista) {
+
+}
+const frutas= ["banana", "pera", "jabuticaba", "kiwi", "melancia", "jabuticaba", "jabuticaba"]
+console.log(quantaPalavras(frutas));
 
 
 
