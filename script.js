@@ -337,7 +337,7 @@ console.log(revertida("brownie"));*/
 }
 console.log(palindromo('palavra'));
 console.log(palindromo('arara'));*/
-function maiorIndice(words) {
+/*function maiorIndice(words) {
     let maior = 0
     for (let index = 0; index < words.length; index+=1) {
         if (words[index].length > words[maior].length) {
@@ -345,7 +345,7 @@ function maiorIndice(words) {
         }
     }
     return maior
-}
+}*/
 /*function menorIndice(palavra) {
     let menor= 0
     for (let index = 0; index < palavra.length; index+=1) {
@@ -364,22 +364,38 @@ console.log(menorIndice(objetos));*/
 
 const frutas= ["banana", "pera", "jabuticaba", "kiwi", "melancia"]
 console.log(maiorPalavra(frutas));*/
-function maiorPalavra(palavra) {
+/*function maiorPalavra(palavra) {
     return palavra[maiorIndice(palavra)]
 
 }
 
 
-
-function quantaPalavras(lista) {
-
+function quantasPalavras(lista) {
+    const palavraMaior = maiorPalavra(lista)
+    let count = 0
+    for (let index = 0; index < lista.length; index+=1) {
+        const element = lista[index];
+        if (element === palavraMaior ) {
+            count +=1
+        }
+    }
+    return count 
 }
-const frutas= ["banana", "pera", "jabuticaba", "kiwi", "melancia", "jabuticaba", "jabuticaba"]
-console.log(quantaPalavras(frutas));
+const frutas = ["banana", "pera", "jabuticaba", "kiwi", "melancia", "jabuticaba", "jabuticaba", "jabuticaba", "jabuticaba"]
+console.log(quantasPalavras(frutas));*/
 
+function gerarNumeroAleatorio(max) {
+    return Math.floor(Math.random() * max);
+  }
+  
+  function listaAleatoria() {
+    const length = gerarNumeroAleatorio(20)
+    const vazio = []
 
-
-
-
-
-
+    for (let index = 0; index < length; index+=1) {
+        const element = gerarNumeroAleatorio(200);
+        vazio.push(element)
+    }
+    return vazio
+  }
+  console.log(listaAleatoria());
