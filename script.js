@@ -379,7 +379,7 @@ function quantasPalavras(lista) {
             count +=1
         }
     }
-    return count 
+    return count
 }
 const frutas = ["banana", "pera", "jabuticaba", "kiwi", "melancia", "jabuticaba", "jabuticaba", "jabuticaba", "jabuticaba"]
 console.log(quantasPalavras(frutas));*/
@@ -387,7 +387,7 @@ console.log(quantasPalavras(frutas));*/
 function gerarNumeroAleatorio(max) {
     return Math.floor(Math.random() * max);
   }
-  
+
   function listaAleatoria() {
     const length = gerarNumeroAleatorio(20)
     const vazio = []
@@ -398,4 +398,19 @@ function gerarNumeroAleatorio(max) {
     }
     return vazio
   }
-  console.log(listaAleatoria());
+  function pares(lista) {
+    let contador = 0
+
+    for (let index = 0; index < lista.length; index+=1) {
+        if (lista[index] % 2) {
+            
+        }
+    }
+  }
+  function main() {
+    const armazenar = listaAleatoria()
+    console.log(armazenar);
+
+  }
+  main()
+
