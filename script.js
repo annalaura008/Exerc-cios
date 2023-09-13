@@ -386,31 +386,29 @@ console.log(quantasPalavras(frutas));*/
 
 function gerarNumeroAleatorio(max) {
     return Math.floor(Math.random() * max);
-  }
+}
 
-  function listaAleatoria() {
+function listaAleatoria() {
     const length = gerarNumeroAleatorio(20)
     const vazio = []
 
-    for (let index = 0; index < length; index+=1) {
+    for (let index = 0; index < length; index += 1) {
         const element = gerarNumeroAleatorio(200);
         vazio.push(element)
     }
     return vazio
-  }
-  function pares(lista) {
-    let contador = 0
+}
+function paresEImpares(lista) {
+    const pares = []
+    const impares = []
+    for (let index = 0; index < lista.length; index += 1) {
+        if () {
 
-    for (let index = 0; index < lista.length; index+=1) {
-        if (lista[index] % 2) {
-            
         }
     }
-  }
-  function main() {
-    const armazenar = listaAleatoria()
-    console.log(armazenar);
-
-  }
-  main()
+    return {
+        pares,
+        impares
+    }
+}
 
