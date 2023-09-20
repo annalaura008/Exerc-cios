@@ -402,8 +402,10 @@ function paresEImpares(lista) {
     const pares = []
     const impares = []
     for (let index = 0; index < lista.length; index += 1) {
-        if () {
-
+        if (lista[index] % 2 === 0) {
+            pares.push(lista[index])
+        } else{
+            impares.push(lista[index])
         }
     }
     return {
@@ -411,4 +413,5 @@ function paresEImpares(lista) {
         impares
     }
 }
-
+const reservar = listaAleatoria()
+console.log(paresEImpares(reservar));
